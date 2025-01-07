@@ -373,10 +373,10 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 20px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1105,9 +1105,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# events Section
 --------------------------------------------------------------*/
-.services .service-item {
+.events .service-item {
   background-color: var(--surface-color);
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -1116,7 +1116,7 @@ section,
   height: 100%;
 }
 
-.services .service-item .icon {
+.events .service-item .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -1130,13 +1130,13 @@ section,
   transform-style: preserve-3d;
 }
 
-.services .service-item .icon i {
+.events .service-item .icon i {
   color: var(--contrast-color);
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item .icon::before {
+.events .service-item .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -1149,37 +1149,37 @@ section,
   transform: translateZ(-1px);
 }
 
-.services .service-item h3 {
+.events .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .service-item p {
+.events .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item:hover {
+.events .service-item:hover {
   background: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.services .service-item:hover .icon {
+.events .service-item:hover .icon {
   background: var(--surface-color);
 }
 
-.services .service-item:hover .icon i {
+.events .service-item:hover .icon i {
   color: var(--accent-color);
 }
 
-.services .service-item:hover .icon::before {
+.events .service-item:hover .icon::before {
   background: color-mix(in srgb, var(--background-color), transparent 70%);
 }
 
-.services .service-item:hover h3,
-.services .service-item:hover p {
+.events .service-item:hover h3,
+.events .service-item:hover p {
   color: var(--contrast-color);
 }
 
